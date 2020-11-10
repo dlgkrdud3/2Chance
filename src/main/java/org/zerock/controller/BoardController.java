@@ -102,21 +102,6 @@ public class BoardController {
 		
 	}
 	
-	@GetMapping("/testAccordion")
-	public void accordion() {
-		
-	}
-	
-	@GetMapping("/testHover")
-	public void testHover() {
-		
-	}
-	
-	@GetMapping("/testStarpoint")
-	public void testStarpoint() {
-		
-	}
-	
 	@PostMapping("/register")
 	@PreAuthorize("isAuthenticated()")
 	public String register(BoardVO board, RedirectAttributes rttr) {

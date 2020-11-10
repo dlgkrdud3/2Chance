@@ -173,7 +173,15 @@
 									<li><a href="/inquiry/inquiry">1:1 문의</a></li>
 									<li><a href="/board/list">공지사항</a>
 								</ul></li>
-
+								
+							<!-- Test Page 이동 경로 -->
+							<li><a href="#">TestPage</a>
+								<ul class="dropdown">
+									<li><a href="/test/hakTest">이학영 테스트</a></li>
+									<li><a href="/test/yeTest">배예진 테스트</a></li>
+									<li><a href="/test/hoTest">이호형 테스트</a></li>
+							</ul></li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -730,6 +738,10 @@
 	});
 
 	<!-- Scroll to Top 2 end -->
+	
+		$(document).ready(function(){
+			
+		});
 	</script>
 </body>
 
